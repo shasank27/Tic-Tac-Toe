@@ -49,10 +49,10 @@ def check():
             return 1
     if (lis[2] == lis[4]) and (lis[4] == lis[6]):
         if lis[2] == a:
-            print("PLAYER 1  WINS")
+            print("PLAYER 1 WON")
             return 1
         else:
-            print("PLAYER 2  WINS")
+            print("PLAYER 2 WON")
             return 1
     return 0
 
@@ -67,7 +67,7 @@ print("Mark for Player1 is {}".format(a))
 print("Mark for Player2 is {}".format(b))
 print("Rules : First Player1 will choose a number which will be replaced ")
 print("by his/her mark then Player2 will choose a number which will be ")
-print("replaced by his/her mark and it'll continue subsequently")
+print("replaced by his/her mark and it'll continue subsequently in the later stage of the game")
 whi = 0
 while whi < 9:
     if whi % 2 == 0:
